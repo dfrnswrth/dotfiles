@@ -19,12 +19,11 @@ export CLICOLOR=1
 # expand functions in the prompt
 setopt prompt_subst
 
+local dot="%{$fg[green]%}⬤ %{$reset_color%}"
 local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"
 
 # prompt
 export PS1='$(git_prompt_info)[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%~%{$reset_color%}]
-${smiley} '
-# export PS2='$(git_prompt_info)[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%~%{$reset_color%}]
-# ${smiley} '
+${dot} '
 
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.bin:$PATH"
