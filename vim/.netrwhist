@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/dylan'
+let g:netrw_dirhist_2='/Users/dylan/src/postoffice'
+let g:netrw_dirhist_3='/Users/dylan'
