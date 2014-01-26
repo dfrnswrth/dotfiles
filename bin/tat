@@ -1,0 +1,6 @@
+#!/bin/sh
+
+tmux attach -t `basename ${PWD##*/}`
+if [ $? -gt 0 ]; then
+  tmux new -s `basename ${PWD##*/}`
+fi
