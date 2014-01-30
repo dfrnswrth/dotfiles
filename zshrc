@@ -6,8 +6,8 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # Add paths
-export PATH=/usr/local/sbin:/usr/local/bin:${PATH}
-export PATH="$HOME/bin:$PATH"
+export PATH=/usr/local/sbin:/usr/local/bin:$PATH
+export PATH=$HOME/.bin:$PATH
 
 # completion
 autoload -U compinit

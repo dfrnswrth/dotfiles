@@ -266,4 +266,4 @@ nnoremap <c-y> "*Y
 vnoremap <c-y> "*y
 
 nnoremap <leader>j :! jshint %<CR>
-nnoremap <leader>n :NERDTree<CR>
+" nnoremap <leader>n :NERDTree<CR>
