@@ -17,8 +17,6 @@ set t_Co=256 " 256 colors
 let g:codeburn_high_contrast = 0
 colors codeburn
 
-let g:vitality_fix_cursor = 0
-
 " highlight current line
 " set cursorline
 " set colorcolumn=78
